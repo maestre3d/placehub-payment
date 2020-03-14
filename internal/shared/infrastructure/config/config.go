@@ -7,6 +7,7 @@ import (
 
 type Config struct {
 	HTTPPort string
+	RDBMSConnection string
 }
 
 func NewConfig(logger *zap.SugaredLogger) *Config {

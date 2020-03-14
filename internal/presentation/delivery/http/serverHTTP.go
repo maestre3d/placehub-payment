@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"github.com/gin-gonic/gin"
-	"github.com/maestre3d/placehub-payment/internals/shared/infrastructure/config"
+	"github.com/maestre3d/placehub-payment/internal/shared/infrastructure/config"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 	"net/http"

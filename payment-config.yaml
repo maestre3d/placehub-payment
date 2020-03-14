@@ -1,1 +1,2 @@
 HTTPPort: :8080
+RDBMSConnection: postgres://postgres:caca123@localhost:5432/placehub-payment?sslmode=disable
